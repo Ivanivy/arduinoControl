@@ -1,0 +1,32 @@
+body{
+    background-color: #79a4a5
+}
+
+button{
+    border:none;
+    color:white;
+    background: #064f52;
+    width:100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+td{
+    width:200px;
+}
+h1,h3{
+    color:#064f52;
+}
+
+#visualisation {
+    margin-top:40px;
+}
+
+#visualisation div{
+    text-align: center;
+    width:40%;
+    float:left;
+    border:#064f52 solid 1px;
+    margin-left:10px;
+}

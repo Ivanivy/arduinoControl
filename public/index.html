@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>arduino remote control</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div align="center">
+    <h1>ARDUINO JS CONTROL BOARD</h1>
+    <table >
+        <tr>
+            <td colspan="4">
+              <p align="center">  <button  id="up">up</button></p>
+            </td>
+            <td colspan="2">
+                <p align="center"><button id="stop">stop</button></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p align="center"><button id="left">left</button></p>           
+            </td>
+            <td colspan="2">
+                <p align="center"><button id="right">right</button></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <p align="center"> <button id="down">down</button></p>
+            </td>
+        </tr>
+    </table>
+    <div id="visualisation">
+            <div >
+                <h3>console</h3>
+                <p id="console">
+    
+                </p>
+            </div >
+            <div>
+                <h3>preview</h3>
+                <div id="video">
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./socket.io.js"></script>
+    <script src="./chat.js"></script>
+</body>
+</html>
